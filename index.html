@@ -9,10 +9,10 @@
 </head>
 <body>
     <div id = container>
-        <div id = display>
-            math
-        </div>
         <div id ="button_container">
+            <div id = display>
+                <span id = "display_text"></span>
+            </div>
             <div class = "button_row">
                 <button class = "number" id = "7">7</button>
                 <button class = "number" id = "8">8</button>
@@ -32,10 +32,14 @@
                 <button class = "operator" id = "subtract">-</button>
             </div>
             <div class = "button_row">
+                <button id = "enter">=</button>
                 <button class = "number" id = "0">0</button>
-                <button class = "operator" id = "clear">AC</button>
                 <button class = "number" id = "decimal">.</button>
                 <button class = "operator" id = "add">+</button>
+            </div>
+            <div class = "button_row">
+                <button class= "special" id = "delete">delete</button>
+                <button class = "special" id = "clear">clear</button>
             </div>
         </div>
     </div>
